@@ -1,6 +1,8 @@
-# get-ssl-certificate
+# get-ssl-certificate-tmp
 
 ## A zero-dependency utility that returns a website's SSL certificate
+
+NOTE: Original repo doesn't have a tag with the latest changes. So we have this repository.
 
 [![Build Status](https://travis-ci.org/johncrisostomo/get-ssl-certificate.svg?branch=master)](https://travis-ci.org/johncrisostomo/get-ssl-certificate)
 [![Coverage Status](https://coveralls.io/repos/github/johncrisostomo/get-ssl-certificate/badge.svg?branch=master)](https://coveralls.io/github/johncrisostomo/get-ssl-certificate?branch=master)
@@ -10,7 +12,7 @@
 ### Installation
 
 ```
-npm install --save get-ssl-certificate
+npm install --save get-ssl-certificate-tmp
 ```
 
 ### Usage
@@ -18,7 +20,7 @@ npm install --save get-ssl-certificate
 #### Import package:
 
 ```
-const sslCertificate = require('get-ssl-certificate')
+const sslCertificate = require('get-ssl-certificate-tmp')
 ```
 
 #### Pass a url / domain name:
